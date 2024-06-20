@@ -29,3 +29,70 @@ subpages:
     3. other wigs:
     3.1 filter button for just projects/outline
 
+<ul> 
+        <li><a class="active" href="index.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="connect.html">Connect</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>  
+        <style>
+            
+            ul {
+              list-style-type: none;
+              padding: 0;
+              overflow: hidden;
+              background-color: #4c6fcd;
+              margin-left: auto;
+              margin-right: auto;
+              display: inline-block;
+            }
+            
+            li {
+                margin: 10px;
+                float: left;
+                text-align: center;
+                min-width: 20rem;
+            }
+
+            ul {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            }
+
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover {
+              background-color: #1f1f82;
+            }
+            </style>
+            </head>
+            
+
+            
+
+            <h1 class="center"> Types of Fruit</h1>
+            <div class="textBoxContainer">
+                <div>
+                    <h2 class="img"></h2>
+                    <img src="https://images.heb.com/is/image/HEBGrocery/000466634">
+                </div>
+                <div>
+                    <h2 class="par">about me</h2>
+                    <img src="https://images.heb.com/is/image/HEBGrocery/000321109?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0">
+                </div>
+                <div>
+                    <h2 class="slide">hobbies</h2>
+                    <img src="https://media.healthyfood.com/wp-content/uploads/2017/03/What-to-do-with-lemons.jpg">
+                </div>
+            </div>
+            <body>
+    
+        <br>
