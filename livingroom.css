@@ -78,7 +78,7 @@ button .door{
     border: 0px;
     width: 135.15px;
     height: 268.033px;
-    top: 335px;
+    top: 320px;
     left: 1160px;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
     animation: bounce 1s infinite alternate;
@@ -97,8 +97,9 @@ button .door img {
     to { transform: scale(1.02); }
   }
 
+
 img.rain {
-    transform: translate(47.5%, 30%);
+    transform: translate(46%, 29%);
     margin-right: 50px;
     padding: 0px;
     border: black solid 2px;
@@ -114,8 +115,8 @@ button .cabinet{
     border: none;
     width: 106.25px;
     height: 114.25px;
-    top: 530px;
-    left: 823px;
+    top: 515px;
+    left: 800px;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
     animation: bounce 1s infinite alternate;
 }
@@ -135,8 +136,8 @@ button .cabinet img {
 
 button .shelf{
     position: fixed;
-    top: 333px;
-    left: 954px;
+    top: 320px;
+    left: 920px;
     display: flex;
     width: 173.44px;
     height: 270.4px;
