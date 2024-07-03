@@ -4,9 +4,9 @@ body {
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /*background: #abbaab;*/
-    background-image: url("https://static.vecteezy.com/system/resources/previews/003/763/349/original/futuristic-digital-room-grey-black-background-with-white-grid-space-line-color-surface-vector.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("futuristic-blue.jpg");
+    background-repeat: repeat;
+    background-size: contain;
     /*-webkit-linear-gradient(to top, #f7f7f7, #dfe3ee);*
     background: linear-gradient(to top, #f7f7f7, rgb(223,227,238));*/
     }
@@ -42,7 +42,7 @@ padding: 0.2em 1.1em;
 margin: 0 0 0 -6px;
 border-radius: 750px;
 background-color: black;
-box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+box-shadow: 0 0 5px rgb(120, 183, 247), 0 0 25px rgb(120, 183, 247);
 }
 
 #horz-list ul li:last-child a {
@@ -55,7 +55,7 @@ color: black;
 }
 
 #horz-list ul li .active{
-    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+    box-shadow: 0 0 5px rgb(120, 183, 247), 0 0 25px rgb(120, 183, 247), 0 0 50px rgb(120, 183, 247), 0 0 100px rgb(120, 183, 247), 0 0 200px rgb(120, 183, 247);
     border-radius: 750px;
 }
 
@@ -79,8 +79,8 @@ color: black;
     position: relative;
     border-radius: 50%;
     border: white 5px;
-    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
-    animation: bounce 2s infinite alternate;
+    box-shadow: 0 0 5px rgb(120, 183, 247), 0 0 25px rgb(120, 183, 247);
+    animation: bounce 1s infinite alternate;
 }
 
 @keyframes bounce {
@@ -99,7 +99,7 @@ h1{
     color: black;
     font-size: 50px;
     text-decoration: none;
-    width: 30%;
+    width: 50%;
     background-color: white;
     border-radius: 500px;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
@@ -146,7 +146,7 @@ p {
 */
 .dummy {
     display: block;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-around;
@@ -168,8 +168,8 @@ p {
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
     position: relative;
-    bottom: 665px;
-    left: 390px;
+    bottom: 465px;
+    left: 30px;
     animation: bounce 1s infinite alternate;
 }
 
@@ -183,38 +183,3 @@ button:hover {
     box-shadow: 0 0 5px rgb(234, 211, 215), 0 0 25pxrgb(234, 211, 215), 0 0 50px rgb(234, 211, 215), 0 0 100px rgb(234, 211, 215), 0 0 200px rgb(234, 211, 215);
 }
 
-
-/*
-body .headInfo {
-    background: rgb(223,227,238);
-    font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: incline;  
-    width: 1000px;
-}
-
-*/
-
-/*
-.test {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-*/
-/*
-<div class="test">
-            <ul class="blockPassion">
-                <li>About me</li>
-                <li>passion</li>
-                <li>blog</li>
-                <li>future</li>  
-                <li>connect</li>
-
-<img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">  
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">                
-                
-    */

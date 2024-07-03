@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="livingroom.css">
+        <!--link rel="stylesheet" href="passion.js">-->
+        <div id="content">
+            <div id="horz-list">
+            <ul>
+                <li><a href="index.html">about me</a></li>
+                <li><a class = "active" href="livingroom.html">interests</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="connect.html">prospectives</a></li>
+                <li><a href="blog.html">process</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div id="imageTrackBook">
+            <a href= "https://www.britannica.com/topic/Great-Expectations-novel-by-Dickens">
+            <image class = imageBook id = imageBook1 src = "https://img1.od-cdn.com/ImageType-400/6852-1/%7B56BD5C2F-F6CA-435B-B302-042988CA1A09%7DIMG400.JPG"/>
+            </a>
+            <a href="https://www.ndbooks.com/book/no-longer-human/">
+            <image class = imageBook id = imageBook2 src = "https://m.media-amazon.com/images/I/61vBJ41AO5L._AC_UF1000,1000_QL80_.jpg"/>
+            </a>
+            <a href="https://charliebecker.substack.com/p/confronting-and-embracing-the-void">
+            <image class = imageBook id = imageBook3 src = "https://m.media-amazon.com/images/I/617WkdpG8xL._AC_UF1000,1000_QL80_.jpg"/>
+            </a>
+            <a href= "https://www.meowlibrary.com/product-page/crime-and-punishment-for-your-cat">
+            <image class = imageBook id = imageBook4 src = "https://m.media-amazon.com/images/I/71O2XIytdqL._AC_UF1000,1000_QL80_.jpg"/>
+            </a>
+        </div>
+        <div id="imageTrackChess">
+            <a href="https://www.chess.com/analysis/game/live/69470102463?tab=analysis">
+            <image class = imageChess id = imageChess1 src = "IMG_0126.jpg"/>
+            </a>
+            <a href = "https://www.chess.com/analysis/game/live/69902133003?tab=analysis">
+            <image class = imageChess id = imageChess2 src = "IMG_0125.jpg"/>
+            </a>
+            <a href="https://www.chess.com/analysis/game/live/69986081841?tab=analysis">
+            <image class = imageChess id = imageChess3 src = "IMG_0123.jpg"/>
+            </a>
+            <a href="https://www.chess.com/analysis/game/live/69900335375?tab=analysis">
+            <image class = imageChess id = imageChess4 src = "IMG_0121.jpg"/>
+            </a>
+        </div>
+        <!---
+        <div class="container">
+            <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">John Doe</div>
+            </div>
+          </div>
+        -->
+        <button class="door">
+            <img src="image (1).png" onclick="window.location.href = 'passion.html';" class = "door" alt="buttonpng" />
+        </button>
+        <img src="https://giffiles.alphacoders.com/105/105210.gif" class = "rain" />
+        </div>
+        <button class="cabinet">
+            <img src="IMG_0170.jpg" class = "cabinet" alt="buttonpng" />
+        </button>
+        <button class="shelf">
+            <img src="IMG_0171.jpg" class = "shelf" alt="buttonpng" />
+        </button>
+        <button class="door">
+            <img src="image (1).png" onclick="window.location.href = 'passion.html';" class = "door" alt="buttonpng" />
+        </button>
+        <script src="passion.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $(".shelf").click(function(){
+            $(".imageBook").show();
+            $(".shelf").hide();
+            $(".record").hide();
+            $(".door").hide();
+            $(".rain").hide();
+            $(".cabinet").hide();
+        });
+        });
+        $(document).ready(function(){
+        $("#imageBook1").click(function(){
+            $(".imageBook").hide();
+            $(".shelf").show();
+            $(".record").show();
+            $(".door").show();
+            $(".rain").show();
+            $(".cabinet").show();
+        });
+        });
+        $(document).ready(function(){
+        $(".cabinet").click(function(){
+            $(".imageChess").show();
+            $(".shelf").hide();
+            $(".record").hide();
+            $(".door").hide();
+            $(".rain").hide();
+            $(".cabinet").hide();
+        });
+        });
+        $(document).ready(function(){
+        $("#imageChess1").click(function(){
+            $(".imageChess").hide();
+            $(".shelf").show();
+            $(".record").show();
+            $(".door").show();
+            $(".rain").show();
+            $(".cabinet").show();
+        });
+        });
+        </script>
+        </script>
+    </head>
+</html>

@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+body {
+  background-image: url("https://www.icegif.com/wp-content/uploads/2023/08/icegif-803.gif");
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+
+button.loader {
+  display: inline-block;
+  position: relative;
+  top: 70%;
+  left: 5%;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+  padding: 10px;
+  border: none;
+  animation: bounce .7s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.1); }
+}
+
+/*
+.button{
+    text-decoration: none;
+    padding: 0.2em 1.1em;
+    margin: 0 0 0 -6px;
+    border-radius: 750px;
+    background-color: black;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+}
+    */
+
+button.loader {
+    background: black;
+    color: white;
+}
+
+
+button.loader:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+

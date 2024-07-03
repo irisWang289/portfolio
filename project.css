@@ -4,7 +4,7 @@ body {
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /*background: #abbaab;*/
-    background-image: url("https://static.vecteezy.com/system/resources/previews/003/763/349/original/futuristic-digital-room-grey-black-background-with-white-grid-space-line-color-surface-vector.jpg");
+    background-image: url("Untitled\ 6.png");
     background-repeat: no-repeat;
     background-size: cover;
     /*-webkit-linear-gradient(to top, #f7f7f7, #dfe3ee);*
@@ -42,7 +42,7 @@ padding: 0.2em 1.1em;
 margin: 0 0 0 -6px;
 border-radius: 750px;
 background-color: black;
-box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+box-shadow: 0 0 5px rgb(174, 239, 255),0 0 25px rgb(174, 239, 255);
 }
 
 #horz-list ul li:last-child a {
@@ -55,10 +55,11 @@ color: black;
 }
 
 #horz-list ul li .active{
-    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+    box-shadow: 0 0 5px rgb(174, 239, 255), 0 0 25px whitesmoke, 0 0 50px rgb(174, 239, 255), 0 0 100px whitesmoke, 0 0 200px rgb(174, 239, 255);
     border-radius: 750px;
 }
 
+/*
 .w3-animate-left {
     position: relative;
     animation: animateleft 1.5s;
@@ -71,7 +72,7 @@ color: black;
     padding: 0px;
 }
 
-.dummy img{
+img{
     width: 350px;
     height: 350px;
     bottom: 350px;
@@ -79,30 +80,29 @@ color: black;
     position: relative;
     border-radius: 50%;
     border: white 5px;
+    padding: 10px;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
-    animation: bounce 2s infinite alternate;
 }
-
-@keyframes bounce {
-    to { transform: scale(1.02); }
-}
-
 
 .w3-animate-right {
     animation: animateright 1.5s;
     padding: 0px;
 }
-
+*/
+/*
 h1{
     text-align: center;
     display: block;
     color: black;
     font-size: 50px;
     text-decoration: none;
-    width: 30%;
+    width: 45%;
     background-color: white;
     border-radius: 500px;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 35px;
 }
 
 p {
@@ -116,9 +116,9 @@ p {
     padding: 50px;
     color: white;
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    margin-left: 100px;
 }
-
-
+*/
 /*
 .blockPassion ul li a{
     margin: 0;
@@ -144,23 +144,8 @@ p {
     position: relative;
 }
 */
-.dummy {
-    display: block;
-    padding-top: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: space-around;
-    /*align-items: center;*/
-    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
-}
-
 /*
-.dummy button .linkedin{
-    width: 50px;
-    height: 50px;
-}
-
-.dummy */button /*.download*/{
+button {
     border-radius: 500px;
     color: rgb(234, 211, 215);
     border: white 5px;
@@ -168,8 +153,8 @@ p {
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
     position: relative;
-    bottom: 665px;
-    left: 390px;
+    bottom: 465px;
+    left: 30px;
     animation: bounce 1s infinite alternate;
 }
 
@@ -183,38 +168,89 @@ button:hover {
     box-shadow: 0 0 5px rgb(234, 211, 215), 0 0 25pxrgb(234, 211, 215), 0 0 50px rgb(234, 211, 215), 0 0 100px rgb(234, 211, 215), 0 0 200px rgb(234, 211, 215);
 }
 
-
-/*
-body .headInfo {
-    background: rgb(223,227,238);
-    font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: incline;  
-    width: 1000px;
-}
-
 */
 
-/*
-.test {
+button .door{
+    position: fixed;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    padding: 0px;
+    border: 0px;
+    width: 135.15px;
+    height: 268.033px;
+    top: 335px;
+    left: 1100px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    to { transform: scale(1.02); }
+}
+
+button .door img {
+    transform: translate(-9%, -6%);
+    margin-right: 50px;
+    padding: 0px;
+    border: rgb(255, 255, 255) solid 2px;
+    width: 187.95px;
+    height: 216.3px;
+}
+
+button .laptop{
+    position: fixed;
+    top: 395px;
+    left: 364px;
+    display: flex;
+    width: 128.7px;
+    height: 92.4px;
+    border: white solid 2px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.05); }
+}
+
+
+button .laptop img {
+    transform: translate(-9%, -6%);
+    margin-right: 50px;
+    padding: 0px;
+    border: black solid 2px;
+    width: 128.7px;
+    height: 92.4px;
+}
+
+#imageTrackProject,  
+#imageTrackProject img
+{
+   display:none;
+}
+
+#imageTrackProject .imageProject {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 45vmin;
+    height: 45vmin;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    /*box-shadow: 0 0 10px whitesmoke, 0 0 35px whitesmoke;*/
+}
+
+/*
+.image{
+    box-shadow: 0 0 10px whitesmoke, 0 0 15px whitesmoke;
 }
 */
-/*
-<div class="test">
-            <ul class="blockPassion">
-                <li>About me</li>
-                <li>passion</li>
-                <li>blog</li>
-                <li>future</li>  
-                <li>connect</li>
 
-<img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">  
-            <img class = "w3-container w3-center w3-animate-bottom" src = "IMG_7873.jpg">                
-                
-    */
+#imageTrackProject{
+    display: flex;
+    gap: 3vmin;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+}

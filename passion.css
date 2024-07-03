@@ -1,0 +1,276 @@
+#imageTrackTravel, 
+#imageTrackMusic, 
+#imageTrackTravel img, 
+#imageTrackMusic img
+{
+   display:none;
+}
+
+#imageTrackTravel .imageTravel, #imageTrackMusic .imageMusic {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30vmin;
+    height: 45vmin;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    /*box-shadow: 0 0 10px whitesmoke, 0 0 35px whitesmoke;*/
+}
+
+/*
+.image{
+    box-shadow: 0 0 10px whitesmoke, 0 0 15px whitesmoke;
+}
+*/
+
+#imageTrackTravel, #imageTrackMusic{
+    display: flex;
+    gap: 3vmin;
+    margin-left: 30px;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#content {
+    height: 0vh;
+    margin: 10vh auto;
+    }
+    
+
+body {
+    background: #ececec;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*background: #abbaab;*/
+    background-image: url("Untitled 3.png");
+    background-repeat: repeat;
+    /*-webkit-linear-gradient(to top, #f7f7f7, #dfe3ee);*
+    background: linear-gradient(to top, #f7f7f7, rgb(223,227,238));*/
+    display: incline;
+    position: relative;
+    }
+
+button .window{
+    position: fixed;
+    top: 395px;
+    left: 341.85px;
+    display: flex;
+    width: 187.95px;
+    height: 216.3px;
+    border: black solid 2px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.02); }
+}
+
+
+button .window img {
+    transform: translate(-9%, -6%);
+    margin-right: 50px;
+    padding: 0px;
+    border: black solid 2px;
+    width: 197.3475px;
+    height: 227.115px;
+}
+
+
+button .door{
+    position: fixed;
+    display: flex;
+    width: 135.15px;
+    height: 268.033px;
+    top: 390px;
+    left: 1125px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    animation: bounce 1s infinite alternate;
+}
+
+button .door img {
+    transform: translate(-9%, -6%);
+    margin-right: 50px;
+    padding: 0px;
+    border: black solid 2px;
+    width: 187.95px;
+    height: 216.3px;
+}
+
+button .record{
+    position: fixed;
+    top: 395px;
+    left: 563px;
+    display: flex;
+    width: 142.5px;
+    height: 133.25px;
+    border: black solid 2px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.04); }
+}
+
+
+button .record img {
+    transform: translate(-9%, -6%);
+    margin-right: 50px;
+    padding: 0px;
+    border: black solid 2px;
+    width: 142.5px;
+    height: 133.25px;
+}
+
+
+button:hover{
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
+a {
+color: #fff;
+text-transform: uppercase;
+}
+
+#horz-list ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+top: 10px;
+border-radius: 750px;
+}
+
+#horz-list ul li {
+display: inline;
+margin: 10px;
+}
+
+#horz-list ul li a {
+text-decoration: none;
+padding: 0.2em 1.1em;
+margin: 0 0 0 -6px;
+border-radius: 750px;
+background-color:black;
+box-shadow: 0 0 5px rgb(255, 172, 240), 0 0 25px rgb(255, 172, 240);
+}
+
+#horz-list ul li:last-child a {
+border-radius: 750px;
+}
+
+#horz-list ul li a:hover {
+background: white;
+color: black;
+}
+
+#horz-list ul li .active{
+    box-shadow: 0 0 5px rgb(255, 172, 240), 0 0 25px rgb(255, 172, 240), 0 0 50px rgb(255, 172, 240), 0 0 100px rgb(255, 172, 240), 0 0 200px rgb(255, 172, 240);
+    border-radius: 750px;
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 1.5s;
+    padding: 0px;
+}
+
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 1.5s;
+    padding: 0px;
+}
+
+.w3-animate-right {
+    animation: animateright 1.5s;
+    padding: 0px;
+}
+
+h1{
+    border-radius: 500px;
+    color: rgb(234, 211, 215);
+    border: white 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+}
+
+h2{
+    border-radius: 500px;
+    color: rgb(234, 211, 215);
+    border: white 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+}
+
+.myInterests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin-left: 50px;
+    background-color:rgb(59,89,152);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 100px;
+    padding: 50px;
+    color: rgb(184, 209, 233);
+}
+
+.blockPassion ul li a{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    top: 10px;
+    border-radius: 750px;
+    text-align: center;
+    display: incline;
+    position: relative;
+    color: rgb(59,89,152);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+
+.headInfo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    position: relative;
+}
+
+.dummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .headInfo {
+    background: rgb(223,227,238);
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: incline;
+    position: relative;  
+    width: 1000px;
+}
+
+imageTrackBook.overlay {
+    background-color: black;
+    opacity: 60%;
+}

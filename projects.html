@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="project.css">
+        <div id="content">
+            <div id="horz-list">
+            <ul>
+                <li><a href="index.html">about me</a></li>
+                <li><a href="livingroom.html">interests</a></li>
+                <li><a class = active href="projects.html">projects</a></li>
+                <li><a href="connect.html">prospectives</a></li>
+                <li><a href="blog.html">process</a></li>
+            </ul>
+            </div>
+        </div>
+        <button class="door">
+            <img src="IMG_0145 (1).jpg" onclick="window.location.href = 'connect.html';" class = "door" alt="buttonpng" />
+        </button>
+        <button class="laptop">
+            <img src="IMG_0177.jpg" class = "laptop" alt="buttonpng" />
+        </button>
+        <!---
+        <div>
+            <br>
+            <h1>project: Save the Beetles</h1>
+            <p>This website informs you of the basics of island biography and <br> how you can help the beetles migrate through <br> building a compost in your yard</p>
+            <a href = "https://klora289.github.io/int-u2-project-23-24-starter-code-2/">
+            <img src = "IMG_0151.PNG">
+            </a>
+            <h1>project: fortune builder</h1>
+            <p>This game challenges you to make wise financial decisions and amass your capital!</p>
+            <img src = "IMG_0155.PNG">
+            <h1>project: sports quiz</h1>
+            <p>This quiz help you decide which sport you should start playing!</p>
+            <img src = "IMG_0160.PNG">
+        </div>    
+        -->
+        <div id="imageTrackProject">
+            <a href= "https://klora289.github.io/int-u2-project-23-24-starter-code-2/">
+            <image class = imageProject id = imageProject1 src = "IMG_0151.PNG"/>
+            </a>
+            <a href="https://klora289.github.io/int-u3-project-23-24-starter-code/">
+            <image class = imageProject id = imageProject2 src = "IMG_0155.PNG"/>
+            </a>
+            <a href="https://klora289.github.io/int-u4-project-23-24-starter-code/">
+            <image class = imageProject id = imageProject3 src = "IMG_0160.PNG"/>
+            </a>
+        </div>
+        <script src="passion.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $(".laptop").click(function(){
+            $(".imageProject").show();
+            $(".door").hide();
+            $(".laptop").hide();
+        });
+        });
+        $(document).ready(function(){
+        $("#imageProject1").click(function(){
+            $(".imageProject").hide();
+            $(".door").show();
+            $(".laptop").show();
+        });
+        });
+        </script>
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
+

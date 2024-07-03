@@ -1,0 +1,117 @@
+body {
+    background: #ececec;
+    margin: 0px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*background: #abbaab;*/
+    background-image: url("image.png");
+    background-repeat: repeat;
+    background-size: contain;
+    /*-webkit-linear-gradient(to top, #f7f7f7, #dfe3ee);*
+    background: linear-gradient(to top, #f7f7f7, rgb(223,227,238));*/
+    }
+
+#content {
+height: 0h;
+margin: 10vh auto;
+}
+
+
+a {
+color: #fff;
+text-transform: uppercase;
+}
+
+#horz-list ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+top: 10px;
+border-radius: 750px;
+}
+
+#horz-list ul li {
+display: inline;
+margin: 10px;
+}
+
+#horz-list ul li a {
+text-decoration: none;
+padding: 0.2em 1.1em;
+margin: 0 0 0 -6px;
+border-radius: 750px;
+background-color: black;
+box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+}
+
+#horz-list ul li:last-child a {
+border-radius: 750px;
+}
+
+#horz-list ul li a:hover {
+background: white;
+color: black;
+}
+
+#horz-list ul li .active{
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+    border-radius: 750px;
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 1.5s;
+    padding: 0px;
+}
+
+.w3-animate-bottom {
+    position: relative;
+    animation: animatebottom 1.5s;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    width: 75%;
+    background-color: black;
+    border-radius: 500px;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+}
+
+.box{
+    width: 75%;
+    height: 75%;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    background: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke, 0 0 100px whitesmoke, 0 0 200px whitesmoke;
+}
