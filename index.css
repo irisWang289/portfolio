@@ -6,14 +6,14 @@ body {
     /*background: #abbaab;*/
     background-image: url("https://static.vecteezy.com/system/resources/previews/003/763/349/original/futuristic-digital-room-grey-black-background-with-white-grid-space-line-color-surface-vector.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     /*-webkit-linear-gradient(to top, #f7f7f7, #dfe3ee);*
     background: linear-gradient(to top, #f7f7f7, rgb(223,227,238));*/
     }
 
 #content {
 height: 0h;
-margin: 10vh auto;
+margin: 10% ;
 }
 
 
